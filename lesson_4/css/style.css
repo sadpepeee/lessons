@@ -1,0 +1,39 @@
+@import url(reset.css);
+
+div.general-information{
+   color: violet;
+}
+
+.history__page.history{
+   color: orange;
+}
+
+a,
+#main-title,
+.cardigan-corgi{
+   color: brown;
+}
+
+.pembroke-corgi p{
+   color: darkblue;
+}
+
+.pembroke-corgi .green-color{
+   color: green;
+}
+
+.up *{
+   color: cornflowerblue;
+}
+
+.up > a + p{
+   color: aqua;
+}
+
+#paragraph-1 ~ p{
+   color: slategray;
+}
+
+[class*="__container"]{
+   color: teal;
+}
