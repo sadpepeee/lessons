@@ -1,0 +1,157 @@
+@import url(fonts.css);
+
+@import url(reset.css);
+
+.article{
+   font-family: "Libre Franklin", sans-serif;
+}
+
+/* header */
+header{
+   font-family: "Bebas Neue", sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   text-align: center;
+}
+h1{
+   font-size: 40px;
+   text-shadow: 5px 5px 6px #535151;
+   font-weight: 700;
+
+}
+.menu{
+   font-size: 30px;
+   font-weight: 700;
+}
+
+/* main */
+/* Premise */
+.premise{
+   font-family: 'Fuggles', cursive;
+   font-weight: 400;
+   font-size: 20px;
+   color: rgb(109, 18, 96);
+}
+#title-1{
+   font-size: 40px;
+   color: rgb(0, 36, 90);
+   text-align: right;
+}
+
+/* Cast */
+.cast{
+   font-family: "Baron Neue", sans-serif;
+   font-weight: 700;
+   color: rgb(3, 87, 100);
+}
+#title-2{
+   text-align: left;
+   font-size: 40px;
+   color: rgb(225, 105, 145);
+   line-height: 1.6;
+   text-transform: uppercase;
+   font-weight: 900;
+   font-style: italic;
+}
+.cast h3{
+   font-size: 30px;
+   color: rgb(190, 70, 190);
+   text-decoration: underline;
+   text-transform: capitalize;
+}
+.cast li{
+   font-size: 13px;
+   text-align: justify;
+   word-spacing: 2px;
+   line-height: 1.5;
+   text-indent: 10px;
+}
+
+/* Production */
+.production{
+   font-family: "Roboto";
+   font-weight: 400;
+   font-size: 20px;
+   color: pink;
+}
+#title-3{
+   font-size: 40px;
+   text-align: right;
+   color: #777f43;
+   letter-spacing: 5px;
+}
+.production h3{
+   font-size: 30px;
+   white-space: nowrap;
+   text-transform: lowercase;
+}
+.development{
+   font-style: italic;
+   font-weight: 700;
+   text-decoration: line-through;
+}
+.filming{
+   word-spacing: 7px;
+}
+.setting-and-aesthetics{
+   text-decoration: overline;
+}
+
+/* Release */
+.release{
+   color: tomato;
+   font-size: 30px;
+   white-space: wrap;
+}
+
+/* Style */
+.style{
+   text-align: right;
+   font-size: 20px;
+   text-decoration: underline;
+}
+
+.source,
+.link{
+   text-align: center;
+   color: rgb(12, 176, 91);
+   font-size: 50px;
+}
+
+
+/*---------------------------------------------------------------*/
+.consulting{
+   font-family: "Inter",sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.46;
+   word-wrap: break-word;
+   color: #7D7D7D;
+}
+
+.consulting__title,
+.consulting__subtitle,
+.project-info__title{
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27;
+}
+.consulting__title{
+   color: #37393F;
+   font-size: 30px;
+   text-transform: capitalize;
+}
+.consulting__subtitle{
+   color: #6B77E5;
+   font-size: 20px;
+}
+
+.project-info__title{
+   color: #37393F;
+   font-size: 40px;
+   font-weight: 700;
+}
+.list{
+   font-weight: 500;
+   text-indent: 16px;
+}

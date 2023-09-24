@@ -1,0 +1,70 @@
+/* Libre Franklin */
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:regular,500,600,700,500italic);
+
+
+/* Bebas Neue */
+
+@font-face {
+   font-family: 'Bebas Neue';
+   src: 
+      url("../fonts/BebasNeue-Regular.woff2") format("woff2"),
+      url("../fonts/BebasNeue-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Bebas Neue';
+   src: 
+      url("../fonts/BebasNeue-Bold.woff2") format("woff2"),
+      url("../fonts/BebasNeue-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+/* Croissant One */
+
+@import url(https://fonts.googleapis.com/css?family=Fuggles:regular);
+
+/* Baron Neue */
+
+@font-face {
+   font-family: "Baron Neue";
+   src: 
+      url(../fonts/Baron-Neue-Bold-Italic.woff2) format("woff2"),
+      url(../fonts/Baron-Neue-Bold-Italic.woff) format("woff");
+   font-weight: 700;
+   font-style: italic;
+   font-display: swap;
+}
+@font-face{
+   font-family: "Baron Neue";
+   src: 
+      url(../fonts/Baron-Neue-Black.woff2) format("woff2"),
+      url(../fonts/Baron-Neue-Black.woff) format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face{
+   font-family: "Baron Neue";
+   src: 
+      url(../fonts/Baron-Neue-Black-Italic.woff2) format("woff2"),
+      url(../fonts/Baron-Neue-Black-Italic.woff) format("woff");
+   font-weight: 900;
+   font-style: italic;
+   font-display: swap;
+}
+
+
+/* Roboto */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100italic,300,regular,500italic,700,700italic,900);
+
+/* Inter */
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500);
+
+/* Poppins */
+@import url(https://fonts.googleapis.com/css?family=Poppins:600,700);
