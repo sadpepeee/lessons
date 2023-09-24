@@ -101,7 +101,7 @@ h1{
 .release{
    color: tomato;
    font-size: 30px;
-   white-space: wrap;
+   white-space: nowrap;
 }
 
 /* Style */
