@@ -1,0 +1,196 @@
+@import url(fonts.css);
+
+@import url(reset.css);
+
+.article{
+   font-family: "El Messiri", sans-serif;
+   max-width: 800px;
+   margin: 0 auto 100px;
+   font-size: 20px;
+   line-height: 1.1;
+}
+img{
+   max-width: 800px;
+}
+
+h1,
+h2{
+   font-family: 'Cormorant', serif;
+   font-style: italic;
+   text-align: center;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+}
+
+h1{
+   font-weight: 700;
+   font-size: 40px;
+   margin: 15px 0;
+   color: palevioletred;
+}
+
+h2{
+   font-weight: 600;
+   font-size: 30px;
+   margin: 10px 0;
+   color: seagreen;
+}
+
+/*--------------------------------*/
+.iphone15{
+   margin: 0 0 25px 0;
+}
+
+.iphone15__text{
+   height: 100px;
+   overflow: auto;
+   color: darkblue;
+   margin: 0 0 27px 0;
+}
+
+.iphone15__img{
+   background-color: saddlebrown;
+   padding: 12px 22px 64px;
+}
+
+/*--------------------------------*/
+.major-changes,
+.new-colors{
+   margin: 0 0 25px 0;
+}
+
+.major-changes__text,
+.new-colors__text{
+   display: inline-block;
+   width: 450px;
+   vertical-align: middle;
+}
+
+.major-changes__text ul,
+.new-colors__text ul{
+   padding: 10px 0 0 20px;
+}
+
+.major-changes__img,
+.new-colors__img{
+   width: 340px;
+   vertical-align: middle;
+}
+
+/*--------------------------------*/
+.display__img{
+   display: none;
+}
+
+/*--------------------------------*/
+.functions__text{
+   height: 100px;
+   overflow: hidden;
+   padding: 45px;
+}
+
+
+/*-----------------------------------------------------------*/
+.consulting__layout{
+   max-width: 692px;
+   margin: 0 auto 100px;
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+   line-height: 1.5;
+   word-wrap: break-word
+}
+
+.consulting__block1{
+   margin: 0 0 40px 0;
+}
+
+.consulting__block1 img{
+   margin: 0 0 24px 0;
+}
+
+.consulting__block1 h3,
+.consulting__block1 h4,
+.block2__text h3,
+.block2__text h4{
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27;
+}
+
+.consulting__block1 h3{
+   color: #37393F;
+   font-size: 30px;
+   text-transform: capitalize;
+   margin: 0 0 3px 0;
+}
+
+.block1__text{
+   margin: 0 0 42px 0;
+}
+
+.consulting__block1 h4{
+   color: #6B77E5;
+   font-size: 20px;
+   margin: 0 0 12px 0;
+}
+
+.block2__text{
+   display: inline-block;
+   max-width: 322px;
+   margin: 0 0 0 29px;
+}
+
+.block2__text h3{
+   color: #37393F;
+   font-size: 25px;
+   margin: 0 0 15px 0;
+}
+
+.block2__text h4{
+   color: #40DDB6;
+   font-size: 20px;
+   margin: 0 0 21px 0;
+}
+
+ul li{
+   margin: 0 0 30px 0;
+}
+
+/*-----------------------------------------------------------*/
+.jewellery__layout{
+   max-width: 1190px;
+   margin: 0 auto;
+   font-family: "Inter", sans-serif;
+   color: #474747;
+   font-size: 20px;
+   line-height: 1.8;
+   word-wrap: break-word
+}
+
+.text__box{
+   max-width: 563px;
+   display: inline-block;
+   margin: 0 38px 0 0;
+   vertical-align: middle;
+}
+
+.text__box h3{
+   color: #D06B00;
+   font-size: 28px;
+   margin: 0 0 13px 0;
+   text-transform: uppercase;
+}
+
+.text__box h4{
+   color: #0E333D;
+   font-size: 59px;
+   font-family: "DM Serif Text", serif;
+   line-height: 1.5;
+   margin: 0 0 25px 0;
+   text-transform: capitalize;
+}
+
+.earrings-1{
+   margin: 0 22px 0 0;
+}
