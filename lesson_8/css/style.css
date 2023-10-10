@@ -15,13 +15,6 @@
    text-decoration: line-through;
 }
 
-.footer{
-   background-color: #bc238c;
-   text-align: center;
-   padding: 30px;
-   font-family: "Pixelify Sans", sans-serif;
-   font-size: 40px;
-}
 
 
 /* Практика */
@@ -507,3 +500,12 @@
    background: url("../img/screen4-02.jpg") center / cover no-repeat;
 }
 
+
+
+.footer{
+   background-color: #bc238c;
+   text-align: center;
+   padding: 30px;
+   font-family: "Pixelify Sans", sans-serif;
+   font-size: 40px;
+}
