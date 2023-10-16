@@ -601,6 +601,7 @@
 }
 
 .our-benefits__img{
+   max-width: 331px;
    margin-right: 29px;
 }
 
@@ -795,6 +796,10 @@
    line-height: 1.21;
 }
 
+.work-processes{
+   padding-top: 36px;
+}
+
 .work-process{
    max-width: 386px;
    display: inline-block;
@@ -842,6 +847,11 @@
    border-radius: 50%;
 }
 
+.work-process__link:hover{
+   text-decoration: underline;
+   color: #4d56a3;
+}
+
 
 /* Screenshot-4 */
 .screenshot-4{
@@ -885,8 +895,7 @@
 
 .jewellery__border{
    border: 1px solid #000;
-   width: 334px;
-   height: 381px;
+
    display: inline-block;
    margin-bottom: 34px;
 }
