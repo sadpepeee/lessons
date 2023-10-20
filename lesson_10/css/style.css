@@ -1,0 +1,33 @@
+@import url(fonts.css);
+
+@import url(reset.css);
+
+body{
+   margin: 0 auto;
+   padding: 20px;
+   text-align: center;
+   background-color: #ff8ccb81;
+   max-width: 1200px;
+}
+
+.header,
+.footer{
+   background-color: #1e2d8a;
+   font-family: "Pixelify Sans", sans-serif;
+   font-weight: 600;
+   font-size: 50px;
+   padding: 15px;
+}
+
+.homework{
+   padding: 30px;
+   font-family: "Comfortaa", sans-serif;
+}
+
+.homework p:not(:last-child){
+   margin-bottom: 25px;
+}
+
+img{
+   max-width: 800px;
+}
