@@ -90,6 +90,9 @@
 
 
 /* ----------- page --------- */
+.page{
+   margin-bottom: 50px;
+}
 /* ----------- practice --------- */
 .practice {
    background-color: #ccc28d;
@@ -488,4 +491,15 @@
    left: 20px;
    background-color: #fff;
    width: 590px;
+}
+
+
+/* ----------- FOOTER --------- */
+.footer{
+   font-family: "Pixelify Sans", sans-serif;
+   text-align: center;
+   font-size: 80px;
+   padding: 40px;
+   background-color: navy;
+   color: #ffffff;
 }
