@@ -275,9 +275,7 @@ body {
 .card-product__link {
    min-height: 45px;
    align-self: flex-start;
-   flex-grow: 0;
-   font-style: 0;
-   flex-basis: 18px;
+   flex: 0 0 18px;
    background: url("../img/icons/arrow.svg") center no-repeat;
    transition-duration: 0.3s;
 }
