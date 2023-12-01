@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 16</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <!-- HEADER -->
+      <header class="header">
+         <div class="header__container">
+            LESSON 16
+         </div>
+      </header>
+
+      <!-- PAGE -->
+      <main class="page">
+         <div class="practice">
+            <div class="practice__container">
+               <form class="practice__form form-practice" action="#" enctype="multipart/form-data">
+                  <div class="form-practice__questionnaire">
+                     <div class="form-practice__info form-practice__info--contacts">
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="practice-name">Enter your name
+                              <span>*</span></label>
+                           <input id="practice-name" class="form-practice__input" type="text" name="name-practice"
+                              placeholder="Enter your name *" required>
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="practice-surname">Enter your surname
+                              <span>*</span></label>
+                           <input id="practice-surname" class="form-practice__input" type="text" name="surname-practice"
+                              placeholder="Enter your surname *" required>
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="practice-email">Enter your email
+                              <span>*</span></label>
+                           <input id="practice-email" class="form-practice__input" type="text" name="email-practice"
+                              placeholder="Enter your email *" required>
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="tel-practice">Enter your phone number
+                              <span>*</span></label>
+                           <input class="form-practice__input" id="tel-practice" type="tel" name="tel-practice"
+                              placeholder="Enter your phone number*" required>
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="age-practice">Enter your age</label>
+                           <input class="form-practice__input" id="age-practice" type="number" name="age"
+                              placeholder="Enter your age" maxlength="3">
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="message">Describe your day :]</label>
+                           <textarea class="form-practice__textarea" name="message" id="message" cols="30"
+                              rows="10"></textarea>
+                        </div>
+                     </div>
+
+                     <div class="form-practice__info form-practice__info--fun">
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="secret-practice">Enter your secret :]</label>
+                           <input class="form-practice__input" id="secret-practice" type="password"
+                              name="secret-practice" placeholder="Enter your secret :]" minlength="5" maxlength="45"
+                              autocomplete="off">
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="color-practice">Choose your fav color</label>
+                           <input type="color" class="form-practice__input form-practice__input--color"
+                              id="color-practice">
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="search-practice">A field for finding
+                              motivation</label>
+                           <input class="form-practice__input form-practice__input--search" type="search"
+                              id="search-practice" name="search-practice"
+                              placeholder="If you find it, share it with me :[" autocomplete="off">
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="date-practice">What is today's date?</label>
+                           <input class="form-practice__input" type="date" id="date-practice" name="date-practice">
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="range-practice">Your mood today</label>
+                           <input class="form-practice__input" id="range-practice" type="range" name="range-practice"
+                              value="0">
+                        </div>
+
+                        <div class="form-practice__item">
+                           <label class="form-practice__label" for="select-practice">Choose</label>
+                           <select class="form-practice__select" id="select-practice" name="select-practice">
+                              <option value="01">Meow</option>
+                              <option selected value="02">:3</option>
+                              <option value="03">"_"</option>
+                              <option value="04">:]</option>
+                           </select>
+                        </div>
+
+                        <!-- <div class="form-practice__item">
+                           <input type="hidden" value="meow" name="hidden-meow">
+                        </div> -->
+                     </div>
+
+                     <div class="form-practice__info choice-form">
+                        <div class="choice-form__item">
+                           <h4 class="choice-form__title">What pets live in your home?</h4>
+                           <div class="choice-form__checkbox">
+                              <div class="choice-form__body">
+                                 <label class="choice-form__label" for="check-1-practice">Cat</label>
+                                 <input class="choice-form__input" id="check-1-practice" value="cat" type="checkbox"
+                                    name="check-1-practice">
+                              </div>
+                              <div class="choice-form__body">
+                                 <label class="choice-form__label" for="check-2-practice">Dog</label>
+                                 <input class="choice-form__input" id="check-2-practice" checked value="dog"
+                                    type="checkbox" name="check-2-practice">
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="choice-form__item">
+                           <h4 class="choice-form__title">What pets live in your home?</h4>
+                           <div class="choice-form__radio">
+                              <div class="choice-form__body">
+                                 <input class="choice-form__input" id="radio-1-practice" value="cat" type="radio"
+                                    name="radio-practice" disabled>
+                                 <label class="choice-form__label" for="radio-1-practice">Cat</label>
+                              </div>
+                              <div class="choice-form__body">
+                                 <input class="choice-form__input" id="radio-2-practice" value="dog" type="radio"
+                                    name="radio-practice">
+                                 <label class="choice-form__label" for="radio-2-practice">Dog</label>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="choice-form__item">
+                           <label class="choice-form__label" for="file-practice">Add file</label>
+                           <input class="choice-form__input" type="file" name="file-practice" id="file-practice"
+                              multiple accept=".jpg, .png">
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="form-practice__buttons">
+                     <!-- <button type="button">Я просто кніпочка</button> -->
+                     <button class="form-practice__button" type="submit">Send form</button>
+                     <button class="form-practice__button" type="reset">Reset</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+
+         <div class="euphoria">
+            <div class="euphoria__title-box">
+               <h2 class="euphoria__title">My Info</h2>
+               <h3 class="euphoria__subtitle">Add Address</h3>
+            </div>
+
+            <form action="#" class="euphoria__form form-euphoria" enctype="multipart/form-data">
+               <div class="form-euphoria__delivery-info info-delivery">
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">First Name*</p>
+                     <input class="info-delivery__input" type="text" name="first name euphoria" placeholder="First Name"
+                        required>
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">Last Name*</p>
+                     <input class="info-delivery__input" type="text" name="last name euphoria" placeholder="Last Name"
+                        required>
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">Country / Region*</p>
+                     <input class="info-delivery__input" type="text" name="country / region euphoria"
+                        placeholder="Country / Region" required>
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">Company Name</p>
+                     <input class="info-delivery__input" type="text" name="company name euphoria"
+                        placeholder="Company (optional)">
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">Street Address*</p>
+                     <input class="info-delivery__input" type="text" name="street address euphoria"
+                        placeholder="House number and street name" required>
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">Apt, suite, unit</p>
+                     <input class="info-delivery__input" type="text" name="apt, suite, unit euphoria"
+                        placeholder="apartment, suite, unit, etc. (optional)">
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">City*</p>
+                     <input class="info-delivery__input" type="text" name="city / town euphoria"
+                        placeholder="Town / City" required>
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">State*</p>
+                     <select class="info-delivery__input" name="state" required>
+                        <option class="info-delivery__option" selected disabled>State</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Kansas">Kansas</option>
+                        <option value="Maryland">Maryland</option>
+                        <option value="Mississippi">Mississippi</option>
+                     </select>
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">Phone*</p>
+                     <input class="info-delivery__input" type="tel" name="phone euphoria" placeholder="Phone" required>
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">Postal Code*</p>
+                     <input class="info-delivery__input" type="number" name="postal code euphoria"
+                        placeholder="Postal Code" required>
+                  </label>
+                  <label class="info-delivery__item">
+                     <p class="info-delivery__label">Delivery Instruction</p>
+                     <textarea class="info-delivery__input info-delivery__input--textarea" name="delivery instruction euphoria" placeholder="Delivery Instruction"></textarea>
+                  </label>
+               </div>
+               <div class="form-euphoria__defaults default-settings">
+                  <div class="default-settings__box">
+                     <label class="default-settings__checkbox">
+                        <input class="default-settings__input" type="checkbox">
+                        <span class="default-settings__text">Set as default shipping address</span>
+                     </label>
+                  </div>
+                  <div class="default-settings__box">
+                     <label class="default-settings__checkbox">
+                        <input class="default-settings__input" type="checkbox">
+                        <span class="default-settings__text">Set as default billing address</span>
+                     </label>
+                  </div>
+               </div>
+
+               <div class="form-euphoria__buttons">
+                  <button class="button-euphoria button-euphoria--save" type="submit">Save</button>
+                  <button class="button-euphoria button-euphoria--reset" type="reset">Cancel</button>
+               </div>
+            </form>
+         </div>
+
+         <div class="consulting">
+            <div class="consulting__container">
+               <div class="consulting__title-box box-title">
+                  <h5 class="box-title__label">Contact Us</h5>
+                  <h2 class="box-title__title">Request A Call Back !</h2>
+               </div>
+               <form action="#" class="consulting__form form-consulting" method="GET" enctype="multipart/form-data">
+                  <div class="form-consulting__body">
+                     <input type="text" class="form-consulting__input" name="name" placeholder="Your Name" required>
+                     <input type="email" class="form-consulting__input" name="email" placeholder="Email Address" required>
+                     <input type="tel" class="form-consulting__input" name="phone" placeholder="Phone Number" required
+                        maxlength="13">
+                     <input type="text" class="form-consulting__input" name="subject" placeholder="Subject" required>
+                     <textarea name="message" class="form-consulting__input form-consulting__input--textarea"
+                        placeholder="Message..." required></textarea>
+                  </div>
+                  <button class="form-consulting__button" type="submit">Submit</button>
+               </form>
+            </div>
+         </div>
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+         <div class="footer__container">
+            SEE U SOON :]
+         </div>
+      </footer>
+   </div>
+</body>
+
+</html>

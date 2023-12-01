@@ -1,0 +1,377 @@
+@import url(fonts.css);
+
+@import url(reset.css);
+
+
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper>main {
+   flex-grow: 1;
+}
+
+[class*="__container"] {
+   max-width: 1250px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.header,
+.footer,
+.practice {
+   font-family: "Pixelify Sans", sans-serif;
+}
+
+/* --- HEADER FOOTER --- */
+.header {
+   background-color: #FAF3F0;
+   color: #add7ad;
+}
+
+.footer {
+   background-color: #DBC4F0;
+   color: #fff;
+}
+
+.header__container,
+.footer__container {
+   padding: 20px 0;
+   font-size: 40px;
+   text-align: center;
+}
+
+
+
+
+/* --- PRACTICE --- */
+.practice {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+
+   font-size: 20px;
+   background-color: #FFCACC;
+   padding: 20px 0;
+}
+
+.practice__form {
+   display: flex;
+   gap: 50px;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+}
+
+.form-practice__questionnaire {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   align-items: start;
+}
+
+.form-practice__info {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.form-practice__item {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 15px;
+}
+
+.form-practice__input,
+.form-practice__select,
+.form-practice__textarea {
+   padding: 15px;
+   border-radius: 10px;
+   transition: box-shadow 0.3s linear,
+      outline 0.3s linear;
+}
+
+.form-practice__input:hover,
+.form-practice__input:focus-visible,
+.form-practice__select:hover,
+.form-practice__select:focus-visible,
+.form-practice__textarea:hover,
+.form-practice__textarea:focus-visible {
+   box-shadow: 0 0 20px #FFA1F5,
+      0 0 15px #BC7AF9,
+      0 0 25px #793FDF;
+   outline: 3px solid #793FDF;
+}
+
+
+
+.form-practice__label span {
+   color: #ff0000;
+}
+
+.form-practice__input::placeholder {
+   font-size: 14px;
+}
+
+
+.form-practice__input--color {
+   width: 100%;
+   padding: 5px;
+   height: 54px;
+}
+
+
+.form-practice__input--search::placeholder {
+   opacity: 0;
+   transition: opacity 0.2s linear;
+}
+
+.form-practice__input--search:hover::placeholder,
+.form-practice__input--search:focus-visible::placeholder {
+   opacity: 1;
+}
+
+
+.form-practice__textarea {
+   resize: none;
+}
+
+
+.choice-form__item {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   justify-content: space-between;
+}
+
+.choice-form__checkbox,
+.choice-form__radio {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+   color: #6d6d6d;
+}
+
+.choice-form__body {
+   display: flex;
+   gap: 10px;
+}
+
+
+.form-practice__buttons {
+   display: flex;
+   gap: 50px;
+   justify-content: space-between;
+}
+
+.form-practice__button {
+   background-color: #DBC4F0;
+   padding: 20px;
+   border-radius: 20px;
+   color: #fff;
+   transition: box-shadow 0.3s linear;
+}
+
+.form-practice__button:hover {
+   box-shadow: 3px 3px 20px #FFA1F5,
+      3px 3px 15px #BC7AF9;
+}
+
+
+
+
+/* euphoria */
+
+.euphoria {
+   padding: 50px 0;
+   font-family: "Causten", sans-serif;
+   font-size: 18px;
+   color: #3C4242;
+   max-width: 925px;
+   margin: 0 auto;
+}
+
+.euphoria__title-box {
+   margin-bottom: 50px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+
+}
+
+.euphoria__title {
+   margin-bottom: 20px;
+   font-size: 28px;
+   letter-spacing: 0.56px;
+}
+
+.euphoria__subtitle {
+   font-size: 22px;
+   letter-spacing: 0.44px;
+}
+
+
+.form-euphoria__delivery-info {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 42px;
+   row-gap: 31px;
+   margin-bottom: 30px;
+}
+
+.info-delivery__item {
+   flex: 0 1 47.55%;
+}
+
+.info-delivery__label {
+   font-weight: 600;
+   letter-spacing: 0.36px;
+   margin-bottom: 10px;
+
+}
+
+.info-delivery__input {
+   padding: 18px 22px;
+   background-color: #F6F6F6;
+   border-radius: 8px;
+   width: 100%;
+}
+
+.info-delivery__input {
+   color: #807D7E;
+   font-size: 16px;
+}
+
+.info-delivery__input--textarea {
+   resize: vertical;
+   min-height: 149px;
+   flex: 1 1 auto;
+}
+
+.form-euphoria__defaults {
+   margin-bottom: 60px;
+}
+
+.default-settings__box:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.default-settings__box {
+   position: relative;
+}
+
+.default-settings__text {
+   position: absolute;
+   left: 24px;
+}
+
+.button-euphoria--save {
+   background-color: #8A33FD;
+   color: #FFF;
+}
+
+.button-euphoria--reset {
+   color: #807D7E;
+   background-color: #F6F6F6;
+}
+
+.button-euphoria {
+   padding: 12px 40px;
+   border-radius: 8px;
+   text-align: center;
+   font-size: 20.087px;
+   font-weight: 600;
+   transition: background-color 0.3s linear, box-shadow 0.3s linear;
+}
+
+.button-euphoria--save:hover{
+   background-color: #6620C1;
+   box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.button-euphoria--reset:hover {
+   background-color: #d5d5d5;
+   box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.button-euphoria:not(:last-child) {
+   margin-right: 30px;
+}
+
+
+
+/* консалтінг */
+
+.consulting {
+	text-align: center;
+	color: #37393F;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+   margin-bottom: 50px;
+}
+
+.consulting__title-box{
+	text-transform: capitalize;
+   margin-bottom: 40px;
+}
+
+.box-title__label {
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+
+.box-title__label::before {
+	content: "";
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+}
+
+
+.box-title__title {
+   font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+
+.form-consulting__body {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 35px;
+	row-gap: 28px;
+	margin-bottom: 50px;
+}
+
+.form-consulting__input {
+	flex: 0 1 48.5%;
+	padding: 21px 40px 22px;
+	background-color: #F8F8F8;
+	border: 1px solid #DDD;
+}
+
+
+.form-consulting__input--textarea {
+	flex: 1 1 auto;
+	resize: vertical;
+	min-height: 222px;
+}
+
+
+.form-consulting__button {
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #fff;
+	background-color: #6B77E5;
+	padding: 21px 61px 22px;
+	transition: background-color 0.3s linear;
+}
+
+.form-consulting__button:hover {
+	background-color: #000a62;
+}
