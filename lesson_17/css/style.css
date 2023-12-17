@@ -199,10 +199,6 @@
    transition: opacity 0.2s linear;
 }
 
-.product-article__text:hover {
-   opacity: 1;
-}
-
 
 .product-article__links {
    display: flex;
@@ -226,16 +222,8 @@
    transition: width 0.2s linear;
 }
 
-.product-article__link:hover::after {
-   width: 100%;
-}
-
 .product-article__link-arrow {
    transition: transform 0.2s linear;
-}
-
-.product-article__link-arrow:hover {
-   transform: scale(1.1);
 }
 
 
@@ -324,53 +312,51 @@
    margin-bottom: 62px;
 }
 
-.bestsellers-products__items {
+.products-items {
    display: flex;
    flex-wrap: wrap;
    row-gap: 10px;
-   margin: 0 -15px 88px;
+   margin: 0 -15px 0;
 }
 
-.bestseller-card {
+.products-items--margin {
+   margin-bottom: 88px;
+}
+
+.product-card {
    flex: 1 0 25%;
    padding: 0 15px;
    min-height: 100%;
 }
 
-.bestseller-card__link-img {
+.product-card__link-img {
    aspect-ratio: 271 / 270;
    margin-bottom: 17px;
 }
 
-.bestseller-card__img {
+.product-card__img {
    width: 100%;
    object-fit: cover;
    transition: transform 0.3s cubic-bezier(0.03, 0.7, 0.31, 0.47);
 }
 
-.bestseller-card__link-img {
+.product-card__link-img {
    overflow: hidden;
 }
 
-.bestseller-card__title,
-.bestseller-card__price {
+.product-card__title,
+.product-card__price {
    font-size: 24px;
    font-weight: 700;
    line-height: 1.4;
    transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.bestseller-card__title {
+.product-card__title {
    margin-bottom: 4px;
 }
 
-.bestseller-card:hover .bestseller-card__img {
-   transform: scale(1.1);
-}
 
-.bestseller-card:hover {
-   color: #618686;
-}
 
 .bestsellers-products__button {
    margin-bottom: 10px;
@@ -386,12 +372,57 @@
    transition: background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.bestsellers-products__link-button:hover {
-   background-color: #b24c26;
-}
-
 .bestsellers-products__body>*:last-child {
    margin-bottom: 0;
+}
+
+
+
+/* --------------------------------------- */
+
+.catalog-products {
+   padding: 70px 0;
+   font-family: "Cormorant Infant", serif;
+   background-color: #0E333D;
+   color: #fff;
+}
+
+.catalog-products__title,
+.catalog-products__subtitle,
+.catalog-products__menu {
+   text-align: center;
+}
+
+.catalog-products__title {
+   font-family: "DM Serif Text", sans-serif;
+   font-size: 48px;
+   line-height: 1.27;
+   margin-bottom: 23px;
+}
+
+.catalog-products__subtitle {
+   color: #EBEBEB;
+   font-family: "Raleway", serif;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.27;
+   margin-bottom: 34px;
+}
+
+.catalog-products__menu {
+   display: flex;
+   margin-bottom: 77px;
+   gap: 41px;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.catalog-products__menu-item {
+   font-family: "Raleway", serif;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 1.27;
 }
 
 
@@ -399,69 +430,91 @@
 
 @media (max-width: 1050px) {
 
-   .bestseller-card__title,
-   .bestseller-card__price {
+   .product-card__title,
+   .product-card__price {
       font-size: 20px;
    }
 }
 
 @media (max-width: 800px) {
-   .bestsellers-products {
+
+   .bestsellers-products,
+   .catalog-products {
       padding: 20px 0;
    }
 
    .bestsellers-products__title,
-   .bestsellers-products__subtitle {
+   .bestsellers-products__subtitle,
+   .catalog-products__title {
       margin-bottom: 10px;
    }
 
-   .bestsellers-products__title {
+   .catalog-products__subtitle {
+      margin-bottom: 25px;
+   }
+
+   .bestsellers-products__title,
+   .catalog-products__title {
       font-size: 40px;
    }
 
-   .bestsellers-products__subtitle {
+   .bestsellers-products__subtitle,
+   .catalog-products__subtitle {
       font-size: 25px;
    }
 
-   .bestsellers-products__items {
+   .catalog-products__menu {
+      margin-bottom: 35px;
+   }
+
+   .products-items {
       justify-content: space-between;
       align-items: center;
       margin-bottom: 20px;
    }
 
-   .bestseller-card {
+   .product-card {
       flex: 0 0 33.333%;
    }
 
-   .bestseller-card__title,
-   .bestseller-card__price {
+   .product-card__title,
+   .product-card__price {
       font-size: 22px;
    }
 }
 
 @media (max-width: 630px) {
-   .bestseller-card {
+   .product-card {
       flex: 0 0 50%;
+   }
+
+   .catalog-products__menu {
+      gap: 30px;
+      margin-bottom: 15px;
    }
 }
 
 @media (max-width: 426px) {
-   .bestsellers-products{
+
+   .bestsellers-products,
+   .catalog-products {
       text-align: center;
    }
-   .bestseller-card {
+
+   .product-card {
       flex: 0 0 100%;
    }
 
-   .bestsellers-products__title {
+   .bestsellers-products__title,
+   .catalog-products__title {
       font-size: 35px;
    }
 
-   .bestseller-card__title {
+   .product-card__title {
       font-size: 26px;
    }
 
-   .bestseller-card__price{
+   .product-card__price {
       font-size: 24px;
    }
 
@@ -469,22 +522,71 @@
       font-size: 23px;
    }
 
-   .bestsellers-products__link-button{
+   .catalog-products__subtitle {
+      font-size: 20px;
+   }
+
+   .bestsellers-products__link-button {
       padding: 10px 25px;
+   }
+
+   .catalog-products__menu {
+      gap: 10px;
+   }
+
+   .catalog-products__menu-item {
+      flex: 0 0 33.333%;
    }
 }
 
-@media (max-width: 361px){
+@media (max-width: 361px) {
    .bestsellers-products__title {
       font-size: 30px;
    }
 
-   .bestseller-card__title,
-   .bestseller-card__price {
+   .product-card__title,
+   .product-card__price {
       font-size: 24px;
    }
 
    .bestsellers-products__subtitle {
       font-size: 20px;
+   }
+
+   .catalog-products__subtitle {
+      font-size: 18px;
+   }
+}
+
+
+/* ----- */
+
+@media (any-hover:hover) {
+   .product-article__text:hover {
+      opacity: 1;
+   }
+
+   .product-article__link:hover::after {
+      width: 100%;
+   }
+
+   .product-article__link-arrow:hover {
+      transform: scale(1.1);
+   }
+
+   .product-card:hover .product-card__img {
+      transform: scale(1.1);
+   }
+
+   .product-card:hover {
+      color: #618686;
+   }
+
+   .bestsellers-products__link-button:hover {
+      background-color: #b24c26;
+   }
+
+   .catalog-products__menu-link:hover {
+      text-decoration: underline;
    }
 }
