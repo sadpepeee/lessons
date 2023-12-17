@@ -425,6 +425,10 @@
    line-height: 1.27;
 }
 
+.product-card__link-img--border{
+   border-radius: 5px;
+}
+
 
 /* --- */
 
